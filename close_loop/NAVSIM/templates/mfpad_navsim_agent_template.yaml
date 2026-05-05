@@ -1,0 +1,12 @@
+_target_: navsim.agents.mfpad_navsim_agent_template.MFPADNavsimAgentTemplate
+
+checkpoint_path: null
+mfpad_repo_root: null
+mfpad_config_path: null
+
+device: cuda
+use_all_sensors: true
+
+# NAVSIM evaluates PDM score over 4 s at 10 Hz.
+trajectory_horizon_s: 4.0
+trajectory_num_poses: 40
